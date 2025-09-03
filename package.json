@@ -10,7 +10,8 @@
     "start": "cd backend && npm start",
     "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
     "build:all": "npm run build && cd backend && npm run build",
-    "build:frontend": "cd frontend && npm run build"
+    "build:frontend": "cd frontend && npm run build",
+    "deploy:frontend": "cd frontend && npm install && npm run deploy"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

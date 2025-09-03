@@ -84,11 +84,10 @@ npm run dev
 
 ### Фронтенд → GitHub Pages
 
-В директории `frontend`:
+В корне проекта:
 
 ```bash
-npm ci
-npm run deploy   # соберёт с base=/ariesto/ и отправит в ветку gh-pages
+npm run deploy:frontend   # установит зависимости фронта, соберёт и задеплоит
 ```
 
 Настройки в репозитории: Settings → Pages → Branch = `gh-pages`.
